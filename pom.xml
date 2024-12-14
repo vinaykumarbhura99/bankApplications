@@ -58,7 +58,7 @@
 				<version>2.1.4.RELEASE</version>
 				<configuration>
                 <mainClass>com.thinklikepro.bankApplication.BankApplication</mainClass> 
-
+       <packaging>war</packaging>
 
 					<source>1.8</source>
 					<target>1.8</target>
