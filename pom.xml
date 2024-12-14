@@ -53,6 +53,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.1.4.RELEASE</version>  <!-- Spring Boot Maven Plugin for 2.x -->
+				  <configuration>
+                <mainClass>com.thinklikepro.bankApplication;.BankApplication</mainClass>  <!-- Your main class -->
+            </configuration>
             </plugin>
 
             <!-- Maven Compiler Plugin to compile with Java 8 -->
