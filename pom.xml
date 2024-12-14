@@ -14,9 +14,6 @@
 	<description>Bank Application Project</description>
 	<properties>
 		<java.version>1.8</java.version>
-		<maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
-
 	</properties>
 	<dependencies>
 		<dependency>
@@ -56,16 +53,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>3.1.0</version> 
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
